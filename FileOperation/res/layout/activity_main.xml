@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/read_assets_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取assets中的内容" />
+    
+    <Button
+        android:id="@+id/read_raw_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取raw中的内容" />
+    
+    <Button
+        android:id="@+id/read_inner_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读写应用的内部存储中的内容" />
+    <Button
+        android:id="@+id/read_outer_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读写外部存储中的内容" />
+    <Button
+        android:id="@+id/SharePreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SharePreference" />
+    <Button
+        android:id="@+id/sqliteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库" />
+
+
+</LinearLayout>

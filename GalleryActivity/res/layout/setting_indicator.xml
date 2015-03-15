@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.RotateImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_indicator"
+    style="@style/SettingIndicator"
+    android:background="@drawable/bg_pressed"
+    android:clickable="true"
+    android:contentDescription="@string/accessibility_second_level_indicators"
+    android:focusable="true"
+    android:padding="10dip"
+    android:scaleType="center"
+    android:src="@drawable/ic_setting_normal" />

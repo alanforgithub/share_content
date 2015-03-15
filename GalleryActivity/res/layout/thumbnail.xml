@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NtianReviewThumbnailGroup" 
+    android:layout_gravity="center_vertical">
+
+    <com.ntian.view.RotateImageView
+        android:id="@+id/thumbnail"
+        style="@style/ReviewThumbnail"
+        android:layout_marginBottom="@dimen/thumbnail_btn_margin_button"
+        android:layout_marginLeft="@dimen/shutter_btn_margin_button"
+        android:background="@drawable/ntian_ic_thumbnail_forground"
+        android:clickable="true"
+        android:contentDescription="@string/accessibility_review_thumbnail"
+        android:focusable="false" />
+    <!-- android:background="@drawable/border_last_picture" -->
+
+    <com.ntian.view.RotateImageView
+        android:id="@+id/thumbnail_default"
+        style="@style/SettingIndicator"
+        android:layout_marginBottom="@dimen/thumbnail_btn_margin_button"
+        android:layout_marginLeft="@dimen/shutter_btn_margin_button"
+        android:background="@drawable/ntian_ic_thumbnail_forground"
+        android:clickable="true"
+        android:contentDescription="@string/accessibility_review_thumbnail"
+        android:focusable="true"
+        android:padding="10dip"
+        android:scaleType="center"
+        android:src="@drawable/default_thumb"
+        android:visibility="gone" />
+
+</FrameLayout>

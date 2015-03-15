@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout is shared by phone and tablet in landscape orientation. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.ntian.view.MobileFrameLayout
+        android:id="@+id/layout_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:id="@+id/left_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include layout="@layout/ntian_camera_choice" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/camera_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:splitMotionEvents="false" >
+
+            <include layout="@layout/gl_root_group" />
+
+            <FrameLayout
+                android:id="@+id/camera_app_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:splitMotionEvents="false" >
+
+                <include layout="@layout/preview_frame" />
+
+                <include layout="@layout/view_layers" />
+            </FrameLayout>
+            
+            <include layout="@layout/camera_root_frame_view"/>
+            
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/right_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include layout="@layout/ntian_camera_filter" />
+        </LinearLayout>
+    </com.ntian.view.MobileFrameLayout>
+
+    <RadioGroup
+        android:id="@+id/currentPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <RadioButton
+            android:id="@+id/left_point"
+            android:layout_width="@dimen/page_point_size"
+            android:layout_height="@dimen/page_point_size"
+            android:background="@drawable/ntian_little_seletor"
+            android:button="@null"
+            android:clickable="false"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/middle_point"
+            android:layout_width="@dimen/page_point_size"
+            android:layout_height="@dimen/page_point_size"
+            android:layout_marginLeft="@dimen/page_point_size"
+            android:layout_marginRight="@dimen/page_point_size"
+            android:background="@drawable/ntian_little_seletor"
+            android:button="@null"
+            android:checked="true"
+            android:clickable="false"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/right_point"
+            android:layout_width="@dimen/page_point_size"
+            android:layout_height="@dimen/page_point_size"
+            android:background="@drawable/ntian_little_seletor"
+            android:button="@null"
+            android:clickable="false"
+            android:gravity="center" />
+    </RadioGroup>
+
+</RelativeLayout>
