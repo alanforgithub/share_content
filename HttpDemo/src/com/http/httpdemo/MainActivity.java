@@ -85,6 +85,9 @@ public class MainActivity extends Activity {
 				});
 	}
 
+	/**
+	 * httpPost
+	 */
 	private void httpClientPost() {
 
 		new Thread(new Runnable() {
@@ -122,6 +125,9 @@ public class MainActivity extends Activity {
 
 	}
 
+	/**
+	 * HttpGet
+	 */
 	private void httpClientGet() {
 		new Thread(new Runnable() {
 
@@ -135,16 +141,15 @@ public class MainActivity extends Activity {
 					Log.i("android", "httpClient get方式 = " + value);
 
 				} catch (ClientProtocolException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 		}).start();
 	}
 
+	
 	private void httpGet() {
 		new Thread(new Runnable() {
 
