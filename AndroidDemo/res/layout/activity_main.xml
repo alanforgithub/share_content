@@ -23,6 +23,17 @@
         android:layout_height="wrap_content"
         android:text="五大布局"/>
     
+    <Button 
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"/>
+    <Button 
+        android:id="@+id/toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast"/>
+    
     
 
 </LinearLayout>

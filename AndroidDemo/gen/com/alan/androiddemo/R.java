@@ -21,22 +21,25 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int arrow=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000c;
-        public static final int bindService=0x7f080009;
-        public static final int getNum=0x7f08000b;
+        public static final int action_settings=0x7f08000e;
+        public static final int bindService=0x7f08000b;
+        public static final int getNum=0x7f08000d;
         public static final int layout=0x7f080006;
         public static final int layout_Absolute=0x7f080004;
         public static final int layout_Frame=0x7f080002;
         public static final int layout_Linear=0x7f080000;
         public static final int layout_Relative=0x7f080001;
         public static final int layout_Table=0x7f080003;
+        public static final int notify=0x7f080007;
         public static final int service=0x7f080005;
-        public static final int startService=0x7f080007;
-        public static final int stopService=0x7f080008;
-        public static final int unBindService=0x7f08000a;
+        public static final int startService=0x7f080009;
+        public static final int stopService=0x7f08000a;
+        public static final int toast=0x7f080008;
+        public static final int unBindService=0x7f08000c;
     }
     public static final class layout {
         public static final int activity_layout=0x7f030000;

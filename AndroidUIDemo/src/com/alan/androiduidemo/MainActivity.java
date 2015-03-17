@@ -2,6 +2,8 @@ package com.alan.androiduidemo;
 
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
+import android.content.ComponentName;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -18,38 +20,27 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		Log.i(TAG, "onCreate");
-		
+
 		Button btn = (Button) findViewById(R.id.button1);
 		btn.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this,TextActivity.class);
+				Intent intent = new Intent(MainActivity.this,
+						TextActivity.class);
 				startActivity(intent);
-				
-//				AlertDialog.Builder builder = new Builder(MainActivity.this);
-//			 builder.setMessage("确认退出吗？");
-//			  builder.setTitle("提示");
-//			 builder.setPositiveButton("确认", new OnClickListener() {
-//			　　   @Override
-//			　　   public void onClick(DialogInterface dialog, int which) {
-//			　　    dialog.dismiss();
-//			　　    MainActivity.this.finish();
-//			　　   }
-//			　　  });
-//			　　  builder.setNegativeButton("取消", new OnClickListener() {
-//			　　   @Override
-//			　　   public void onClick(DialogInterface dialog, int which) {
-//			　　    dialog.dismiss();
-//			　　   }
-//			　　  });
-//			　　  builder.create().show();
-//			　　 
-//				
-				
+
+				// ComponentName componetName = new ComponentName(
+				// "com.alan.androiddeme",
+				// "com.alan.androiddeme.MainActivity");
+
+				// Intent intent = new
+				// Intent("android.intent.action.timepickeractivity");
+				// startActivity(intent);
+
 			}
 		});
-		
+
 	}
 
 	@Override
