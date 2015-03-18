@@ -1,6 +1,7 @@
 package com.alan.androiddemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,15 +29,24 @@ public class FiveLayoutActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View view) {
 
+		Intent intent = null;
+
 		switch (view.getId()) {
 		case R.id.layout_Linear:
-
+			intent = new Intent(FiveLayoutActivity.this,
+					LinearLayoutActivity.class);
 			break;
 		case R.id.layout_Relative:
+			intent = new Intent(FiveLayoutActivity.this,
+					RelativeLayoutActivity.class);
 			break;
 		case R.id.layout_Frame:
+			intent = new Intent(FiveLayoutActivity.this,
+					FrameLayoutActivity.class);
 			break;
 		case R.id.layout_Table:
+			intent = new Intent(FiveLayoutActivity.this,
+					TableLayoutActivity.class);
 			break;
 		case R.id.layout_Absolute:
 			break;
@@ -44,6 +54,8 @@ public class FiveLayoutActivity extends Activity implements OnClickListener {
 		default:
 			break;
 		}
+
+		startActivity(intent);
 
 	}
 

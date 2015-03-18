@@ -37,6 +37,10 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		findViewById(R.id.toast).setOnClickListener(this);
 
+		findViewById(R.id.dialogs).setOnClickListener(this);
+
+		findViewById(R.id.commonView).setOnClickListener(this);
+
 		mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
 	}
@@ -59,6 +63,12 @@ public class MainActivity extends Activity implements OnClickListener {
 		case R.id.toast:
 			showToast();
 			break;
+		case R.id.dialogs:
+			intent = new Intent(this, DialogsActivity.class);
+			break;
+		case R.id.commonView:
+			intent = new Intent(this, CommonViewActivity.class);
+			break;
 
 		default:
 			break;
@@ -74,14 +84,15 @@ public class MainActivity extends Activity implements OnClickListener {
 	 */
 	private void showToast() {
 		if (null == mToast) {
-			mToast = Toast.makeText(MainActivity.this, "toast", Toast.LENGTH_SHORT);
+			mToast = Toast.makeText(MainActivity.this, "toast",
+					Toast.LENGTH_SHORT);
 		} else {
 			mToast.setText("toast");
 		}
-		
+
 		mToast.setGravity(Gravity.CENTER, 0, 0);
 		mToast.show();
-		
+
 	}
 
 	private int id = 1;

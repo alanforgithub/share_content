@@ -23,6 +23,13 @@
             </intent-filter>
         </activity>
         <activity android:name="com.alan.androiddemo.ServiceActiviy"></activity>
+        <activity android:name="com.alan.androiddemo.DialogsActivity"></activity>
+        <activity android:name="com.alan.androiddemo.FiveLayoutActivity"></activity>
+        <activity android:name="com.alan.androiddemo.RelativeLayoutActivity"></activity>
+        <activity android:name="com.alan.androiddemo.LinearLayoutActivity"></activity>
+        <activity android:name="com.alan.androiddemo.FrameLayoutActivity"></activity>
+        <activity android:name="com.alan.androiddemo.TableLayoutActivity"></activity>
+        <activity android:name="com.alan.androiddemo.CommonViewActivity"></activity>
         <service android:name="com.alan.androiddemo.service.ServiceDemo"></service>
     </application>
 

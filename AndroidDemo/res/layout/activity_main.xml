@@ -34,6 +34,17 @@
         android:layout_height="wrap_content"
         android:text="Toast"/>
     
+     <Button 
+        android:id="@+id/dialogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialogs"/>
+     
+     <Button 
+        android:id="@+id/commonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常用控件"/>
     
 
 </LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/dialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="no button dialog"/>
+    <Button 
+        android:id="@+id/dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="one button dialog"/>
+    <Button 
+        android:id="@+id/dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="two button dialog"/>
+    <Button 
+        android:id="@+id/dialog4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list item dialog"/>
+    
+    
+    <Button 
+        android:id="@+id/dialog5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiple choice dialog"/>
+    
+    <Button 
+        android:id="@+id/dialog6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sigle choice dialog"/>
+    <Button 
+        android:id="@+id/dialog7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom dialog"/>
+
+</LinearLayout>
