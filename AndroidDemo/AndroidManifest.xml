@@ -30,6 +30,9 @@
         <activity android:name="com.alan.androiddemo.FrameLayoutActivity"></activity>
         <activity android:name="com.alan.androiddemo.TableLayoutActivity"></activity>
         <activity android:name="com.alan.androiddemo.CommonViewActivity"></activity>
+        <activity android:name="com.alan.androiddemo.ProgressActivity"></activity>
+        <activity android:name="com.alan.androiddemo.ScaleImageActivity"></activity>
+        <activity android:name="com.alan.androiddemo.DateTimerPicker"></activity>
         <service android:name="com.alan.androiddemo.service.ServiceDemo"></service>
     </application>
 

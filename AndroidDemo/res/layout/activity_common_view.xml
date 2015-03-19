@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical" >
-    
-    <TextView 
+
+    <Button
+        android:id="@+id/changeBig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hello world"
-        android:textColor="@color/red"/>
+        android:text="变大" />
+
+    <Button
+        android:id="@+id/changeSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="变小" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World" />
+
+    <Button
+        android:id="@+id/ImageScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片缩放" />
+
+    <Switch
+        android:id="@+id/switch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     
-    
+    <Button
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="progressBar" />
+    <Button
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间控件" />
 
 </LinearLayout>
