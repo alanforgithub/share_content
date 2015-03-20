@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements OnClickListener{
     }
 
     /**
-     * 读取assets中的文件内容
+     * ������assets������������������
      */
     private void readAssetsContent(){
     	try {
@@ -112,7 +112,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.sqliteBtn:
 			Intent intent3 = new Intent(this,SQLiteActivity.class);
 			startActivity(intent3);
-			this.overridePendingTransition(R.anim.rotate, R.anim.translate);
+			//this.overridePendingTransition(R.anim.rotate, R.anim.translate);
 			break;
 			
 		default:

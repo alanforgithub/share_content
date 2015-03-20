@@ -33,6 +33,7 @@
         <activity android:name="com.alan.androiddemo.ProgressActivity"></activity>
         <activity android:name="com.alan.androiddemo.ScaleImageActivity"></activity>
         <activity android:name="com.alan.androiddemo.DateTimerPicker"></activity>
+        <activity android:name="com.alan.androiddemo.ListViewActivity"></activity>
         <service android:name="com.alan.androiddemo.service.ServiceDemo"></service>
     </application>
 

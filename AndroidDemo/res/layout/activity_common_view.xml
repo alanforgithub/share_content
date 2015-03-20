@@ -43,5 +43,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="时间控件" />
+    <Button
+        android:id="@+id/listViewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListView" />
 
 </LinearLayout>
