@@ -34,6 +34,8 @@
         <activity android:name="com.alan.androiddemo.ScaleImageActivity"></activity>
         <activity android:name="com.alan.androiddemo.DateTimerPicker"></activity>
         <activity android:name="com.alan.androiddemo.ListViewActivity"></activity>
+        <activity android:name="com.alan.androiddemo.SpinnerActivity"></activity>
+        <activity android:name="com.alan.androiddemo.galleryActivity"></activity>
         <service android:name="com.alan.androiddemo.service.ServiceDemo"></service>
     </application>
 

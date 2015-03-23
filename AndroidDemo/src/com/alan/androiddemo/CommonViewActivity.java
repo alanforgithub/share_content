@@ -95,6 +95,24 @@ public class CommonViewActivity extends Activity {
 				startActivity(intent);
 			}
 		});
+		findViewById(R.id.spinner).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(CommonViewActivity.this,
+						SpinnerActivity.class);
+				startActivity(intent);
+			}
+		});
+		findViewById(R.id.galleryView).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(CommonViewActivity.this,
+						galleryActivity.class);
+				startActivity(intent);
+			}
+		});
 
 	}
 
