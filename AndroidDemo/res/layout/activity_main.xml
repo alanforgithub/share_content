@@ -45,6 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="常用控件"/>
+     
+     <Button 
+        android:id="@+id/android_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事件处理"/>
     
 
 </LinearLayout>

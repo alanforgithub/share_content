@@ -3,6 +3,7 @@
     android:id="@+id/itemTV"
     android:layout_width="100dp"
     android:layout_height="match_parent" 
-    android:gravity="center">
+    android:gravity="center"
+    android:background="#124567">
 
 </TextView>

@@ -40,7 +40,10 @@ public class MainActivity extends Activity implements OnClickListener {
 		findViewById(R.id.dialogs).setOnClickListener(this);
 
 		findViewById(R.id.commonView).setOnClickListener(this);
+		findViewById(R.id.android_event).setOnClickListener(this);
 
+		
+		
 		mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
 	}
@@ -68,6 +71,9 @@ public class MainActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.commonView:
 			intent = new Intent(this, CommonViewActivity.class);
+			break;
+		case R.id.android_event:
+			intent = new Intent(this, EventActivity.class);
 			break;
 
 		default:

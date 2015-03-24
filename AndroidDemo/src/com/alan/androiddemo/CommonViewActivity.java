@@ -113,6 +113,15 @@ public class CommonViewActivity extends Activity {
 				startActivity(intent);
 			}
 		});
+		findViewById(R.id.gridView).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(CommonViewActivity.this,
+						GridViewActivity.class);
+				startActivity(intent);
+			}
+		});
 
 	}
 
