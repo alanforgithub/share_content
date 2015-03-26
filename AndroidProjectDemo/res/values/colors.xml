@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#ff5b7ec3</color>
+    <color name="gray">#D2D2D2</color>
+    <color name="dialog_full_bg_color">#99000000</color>
+    <color name="allocate_color">#7991fb</color>
+    <color name="white">#ffffff</color>
+    <color name="allocate_color_press">#dd7991fb</color>
+    <color name="delivery_color">#e27670</color>
+    <color name="delivery_color_press">#dde27670</color>
+    <color name="query_color">#a6c44c</color>
+    <color name="query_color_press">#dda6c44c</color>
+    <color name="transfer_color">#eaa658</color>
+    <color name="transfer_color_press">#ddeaa658</color>
+    <color name="logout_color">#b078e8</color>
+    <color name="logout_color_press">#ddb078e8</color>
+
+</resources>

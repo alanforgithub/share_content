@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="员工信息管理"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/query"
+        style="@style/HomePageBtnStyle"
+        android:background="@drawable/btn_allocatte_selector"
+        android:text="员工列表" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/HomePageBtnStyle"
+        android:background="@drawable/btn_delivery_selector"
+        android:text="添加员工信息" />
+
+    <Button
+        android:id="@+id/delete"
+        style="@style/HomePageBtnStyle"
+        android:background="@drawable/btn_query_selector"
+        android:text="删除员工信息" />
+
+    <Button
+        android:id="@+id/update"
+        style="@style/HomePageBtnStyle"
+        android:background="@drawable/btn_transfer_selector"
+        android:text="修改员工信息" />
+
+    <Button
+        android:id="@+id/logout"
+        style="@style/HomePageBtnStyle"
+        android:background="@drawable/btn_logout_selector"
+        android:text="退出登录" />
+
+</LinearLayout>
